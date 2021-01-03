@@ -1,0 +1,136 @@
+<!-- When needing documentation, check out MDN-->
+<!-- Hit html + ENTER to add boilerplate code that every HTML file needs -->
+<!DOCTYPE html>
+<!-- tells browser to render doc as HTML 5 file; shows doctype -->
+<html lang="en" dir="ltr">
+  <head>
+    <!-- the head tells the browser how to handle the page -->
+    <!-- the charset attribute describes what text encoding we are using -->
+    <meta charset="utf-8" description = "This cover letter describes Justice's skills and
+    work experience.">
+    <!-- gives extra associated data about page-->
+    <!-- meta description gives description of website; Google searches will
+      pull this description up when you search for it; Google crawls through the
+    entire website and looks for meta tags-->
+    <title> 🦍Justice's Personal Site</title>
+  </head>
+  <body>
+    <table cellspacing = "20">
+      <tr>
+        <td>
+        <!-- Image tag is a self-closing tag <img src="justice.png" /> -->
+        <!-- the alt attribute describes the image in case the browswer cant render
+        the picture-->
+        <!-- for src attribute, I can use the image address taken from Google or I
+        can put my image in the HTML folder so it's at the same level as this file and the file
+          can access it-->
+        <!-- say my picture was in an images folder within the HTMl folder, I'd have to
+        add a path to the file with images/professional_picture.JPG-->
+        <img src="professional_picture.JPG" width ="300" height= "300" alt="Justice's profile pic">
+      </td>
+      <td>
+        <!-- indentation shows that the heading line is a child of the body -->
+        <h1> Justice Chukwuma </h1>
+        <!-- em is for italics and strong is for bolded-->
+        <p><em>Aspiring <strong>Software Engineer</strong> </em></p>
+        <p> I am a student learning computer science, so I can one day apply it in
+          my own life.
+         <a href="https://www.linkedin.com/in/justicechukwuma/">Check out my LinkedIn!</a></p>
+         <!-- Anchor tag is used to link to other websites-->
+        <!-- horizontal line-->
+      </td>
+      </tr>
+    </table>
+
+
+    <hr>
+    <h3> Education </h3>
+    <p>
+      <!-- ul for unordered list(bullet points) and ol for ordered lists (1,2,3) -->
+      <ul>
+        <li> High School: Deerfield Academy
+          <ul>
+            <li>
+              <i>Deerfield, Massachusetts</i>
+              </li>
+          </ul>
+        </li>
+        <li>
+          University: Princeton University
+          <ul>
+            <li>
+              <i>Princeton, New Jersey</i>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </p>
+    <h3><a href="hobbies.html">Hobbies</a></h3>
+  <p>
+    Contact me <a href="contact-me.html">here!</a>
+    </p>
+  <hr>
+  <h3><strong>Work Experience</strong></h3>
+  <!-- table HTML code-->
+  <!-- can add a border attribution ex: border = "1" to make a border around
+  the table, but it's now deprecated/suggested to not be used, since HTMl is just
+  the structure, and CSS should be used for the styling -->
+  <table cellspacing ="10">
+    <!-- thead is for table head; you also have tfoot and tbody-->
+    <!-- I could essentially just put my cells into one table without any distinction
+    but I might have to later only do an action to the head of the table, which calls
+    for it to be separate from the table footer and body-->
+    <thead>
+      <!-- table row -->
+      <tr>
+        <th>Dates</th>
+        <th>Work</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <!-- table data -->
+        <td>2020-2021</td>
+        <td>Incoming Software Engineer Intern at Intuit</td>
+        </tr>
+      <tr>
+        <td>2021</td>
+        <td> Marketing Intern at NYChoral</td>
+      </tr>
+    </tbody>
+    </table>
+    <hr />
+    <h3>Skills</h3>
+    <!-- nested tables-->
+    <table>
+      <tr>
+        <td>
+          <table cellspacing = "10">
+            <tr>
+              <!-- to access emojis on Mac, Command+Control+Space-->
+              <td>Java</td>
+              <td>⭐️⭐️⭐️</td>
+            </tr>
+            <tr>
+              <td>Creativity</td>
+              <td>⭐️⭐️⭐️⭐️</td>
+            </tr>
+          </table>
+        </td>
+        <td>
+          <table cellspacing = "10">
+            <tr>
+              <td>Python</td>
+              <td>⭐️⭐️</td>
+            </tr>
+            <tr>
+              <td>Desire to Learn</td>
+              <td>⭐️⭐️⭐️⭐️⭐️</td>
+            </tr>
+          </table>
+        </td>
+      </tr
+
+    </table>
+  </body>
+</html>
